@@ -16,7 +16,7 @@ class Scraper:
             if url is None:
                 continue
             if "html" in url:
-                print("\n" + url)
+                print(f"\n {url}")
 
 news = "https://news.google.com/"
 Scraper(news).scrape()
